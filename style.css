@@ -1,0 +1,11 @@
+.navigatebar{
+background-color: blue;
+overflow: hidden;
+
+}
+.navigatebar a{
+float: left;
+color: rgb(228, 224, 186);
+text-align: center;
+
+}
