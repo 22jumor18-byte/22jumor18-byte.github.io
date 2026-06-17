@@ -7,5 +7,31 @@ overflow: hidden;
 float: left;
 color: rgb(228, 224, 186);
 text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.navigatebar a:hover{
+background-color: #ddd;
+color: black; 
+}
+navigatebar a.active{
+background-color: #04AA6D;
+color: white;
+}
+img{
+display: block;
+margin:0 auto ;
+
+}
+p{
+text-align: center;
+
+
+
+}
+h1{
+text-align: center;
+
 
 }
