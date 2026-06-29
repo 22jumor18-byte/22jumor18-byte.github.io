@@ -65,7 +65,7 @@ body {font-family: Verdana, sans-serif;}
 
 .month {
   padding: 70px 25px;
-  width: 80%;
+  width: 50%;
   background: #111773;
   text-align: center;
 }
@@ -79,24 +79,25 @@ body {font-family: Verdana, sans-serif;}
   color: rgb(28, 145, 116);
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 8px;
 }
 
 .month .prev {
   float: left;
-  padding-top: 10px;
+  padding-top: 100px;
 }
 
 .month .next {
   float: right;
-  padding-top: 10px;
+  padding-top: 90px;
 }
 
 .weekdays {
   margin: 0;
-  padding: 10px 0;
+  padding: 50px;
+  padding-left: 240px;
   background-color: #21d3ff67;
-  width:  80%;
+  width:  100%;
 }
 
 .weekdays li {
@@ -107,10 +108,10 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .days {
-  padding: 10px 0;
+  padding: 40px 0;
   background: #14a0c3;
   margin: 0;
-  width:  80%;
+  width:  100%;
 }
 
 .days li {
@@ -118,7 +119,7 @@ body {font-family: Verdana, sans-serif;}
   display: inline-block;
   width: 13.6%;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 105px;
   font-size:12px;
   color: #420cc8;
 }
@@ -131,11 +132,11 @@ body {font-family: Verdana, sans-serif;}
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:1020px) {
-  .weekdays li, .days li {width: 13.1%;}
+  .weekdays li, .days li {width: 53.1%;}
 }
 
 @media screen and (max-width: 720px) {
-  .weekdays li, .days li {width: 12.5%;}
+  .weekdays li, .days li {width: 50.5%;}
   .days li .active {padding: 2px;}
 }
 
