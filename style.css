@@ -36,7 +36,7 @@ text-align: center;
 
 }
 
-img:hover {
+.shake-img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
 
@@ -61,7 +61,12 @@ img:hover {
 
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+body {
+  background-image: url("img/background.png");
+  font-family: Verdana, sans-serif;
+  
+
+}
 
 .month {
   padding: 70px 25px;
@@ -144,8 +149,7 @@ body {font-family: Verdana, sans-serif;}
   .weekdays li, .days li {width: 12.2%;}
 }
 
-body {font-family: Arial, Helvetica, sans-serif}
-* {box-sizing: border-box;}
+
 
 .bg-img {
   /* The image used */
