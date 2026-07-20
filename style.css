@@ -30,7 +30,7 @@ text-align: center;
 
 
 }
-h1{
+h2{
 text-align: center;
 
 
@@ -182,5 +182,17 @@ body {
   filter: grayscale(100%);
 }
 
+h3{text-align: center;
 
 
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #083e5e;
+}
+
+/* Dotted border */
+hr.dotted {
+    border-top: 3px dotted #04346b
+}
