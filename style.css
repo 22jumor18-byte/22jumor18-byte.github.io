@@ -83,9 +83,10 @@ body::before{
 
 .month {
   padding: 70px 25px;
-  width: 50%;
+  width: 100%;
   background: #111773;
   text-align: center;
+  height: 10%;
 }
 
 .month ul {
