@@ -26,7 +26,7 @@ margin:0 auto ;
 }
 p{
 text-align: center;
-
+color:#04297f
 
 
 }
@@ -62,9 +62,22 @@ text-align: center;
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
 body {
-  background-image: url("img/background.png");
+  margin: 0;
   font-family: Verdana, sans-serif;
+
   
+}
+
+body::before{
+  background-image: url("img/crabbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  content:"";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
 
 }
 
@@ -151,20 +164,7 @@ body {
 
 
 
-.bg-img {
-  /* The image used */
-  background-image: url("vulture.jpg");
 
-  min-height: 380px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  /* Needed to position the navbar */
-  position: relative;
-}
 
 /* Position the navbar container inside the image */
 .container {
@@ -196,3 +196,5 @@ hr.dotted {
 hr.dotted {
     border-top: 3px dotted #04346b
 }
+
+
