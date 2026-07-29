@@ -1,7 +1,11 @@
 .navigatebar{
+position: fixed;
 background-color: blue;
 overflow: hidden;
-
+top: 0;
+width: 100%;
+padding: 15px 0;
+margin-bottom: 40px;
 }
 .navigatebar a{
 float: left;
@@ -30,7 +34,7 @@ color:#04297f
 
 
 }
-h2{
+h1,h2{
 text-align: center;
 
 
@@ -64,9 +68,13 @@ ul {list-style-type: none;}
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-
+  
+  justify-content: center;
+  
   
 }
+
+
 
 body::before{
   background-image: url("img/crabbg.png");
@@ -169,9 +177,10 @@ body::before{
 
 /* Position the navbar container inside the image */
 .container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px auto;
 }
 
 
