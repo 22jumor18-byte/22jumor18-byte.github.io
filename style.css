@@ -30,9 +30,13 @@ margin:0 auto ;
 }
 p{
 text-align: center;
-color:#04297f
+color:#7100f2
 
 
+}
+p.ah {
+  font-weight: bold;
+color:#57e9e9
 }
 h1,h2{
 text-align: center;
